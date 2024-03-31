@@ -1,4 +1,10 @@
-# Opening files in Windows from WSL NeoVim
+# My length Nvim TODO
+
+## Checkout yadm
+
+[yadm](https://yadm.io/docs/overview) is a dotfile manager that can make setup fast for each new environment we're in.
+
+## Opening files in Windows from WSL NeoVim
 
 I've already found this:
 ```bash

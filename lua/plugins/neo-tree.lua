@@ -50,5 +50,11 @@ return {
       end,
       desc = "Document symbols explorer (NeoTree)",
     },
+
+    -- Edit following keybindings because we want to use mini.files
+    { "<leader>e", vim.NIL },
+    { "<leader>E", vim.NIL },
+    { "<leader>fe", desc = "Explorer NeoTree (Root Dir)", remap = true },
+    { "<leader>fE", desc = "Explorer NeoTree (cwd)", remap = true },
   },
 }
