@@ -27,6 +27,5 @@ if vim.fn.has("wsl") == 1 then
       cache_enabled = true,
     }
   end
+  vim.g.netrw_browsex_viewer = "cmd.exe /C start"
 end
-
-vim.g.netrw_browsex_viewer = "cmd.exe /C start"
