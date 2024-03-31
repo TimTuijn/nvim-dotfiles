@@ -28,3 +28,5 @@ if vim.fn.has("wsl") == 1 then
     }
   end
 end
+
+vim.g.netrw_browsex_viewer = "cmd.exe /C start"
