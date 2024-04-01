@@ -1,0 +1,11 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.editor.harpoon2",
+    "lazyvim.plugins.extras.editor.mini-files",
+    "lazyvim.plugins.extras.editor.mini-move"
+  ],
+  "news": {
+    "NEWS.md": "3314"
+  },
+  "version": 3
+}
