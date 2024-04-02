@@ -1,8 +1,11 @@
-# My length Nvim TODO
+# My lengthy Nvim TODO
 
 ## Checkout yadm
 
 [yadm](https://yadm.io/docs/overview) is a dotfile manager that can make setup fast for each new environment we're in.
+
+## Extras Lazyvim
+- editor:Outline (to check with edgy.nvim)
 
 ## Opening files in Windows from WSL NeoVim
 
