@@ -1,3 +1,4 @@
+-- NOTE: LazyVim default
 return {
   "nvimdev/dashboard-nvim",
   opts = {

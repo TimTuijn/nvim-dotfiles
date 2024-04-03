@@ -1,3 +1,4 @@
+-- NOTE: LazyVim default
 return {
   "echasnovski/mini.surround",
   opts = {

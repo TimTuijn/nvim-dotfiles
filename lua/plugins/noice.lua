@@ -1,3 +1,4 @@
+-- NOTE: LazyVim default
 return {
   "folke/noice.nvim",
   keys = {
