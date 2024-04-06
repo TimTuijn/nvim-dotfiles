@@ -12,7 +12,9 @@ return {
       go_out_plus = "H",
     },
     windows = {
-      -- width_preview = 50,
+      width_focus = 50,
+      width_nofocus = 20,
+      width_preview = 30,
     },
   },
   keys = {
