@@ -21,9 +21,12 @@ return {
     "navarasu/onedark.nvim",
   },
   {
+    "catppuccin/nvim",
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark",
+      colorscheme = "catppuccin-latte",
     },
   },
 }
