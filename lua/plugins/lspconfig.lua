@@ -1,4 +1,4 @@
--- WARNING: Default Lazyvim config + extra stuff cramped into it (for extras.lang.rust)
+-- NOTE: Lazyvim default config + extra stuff cramped into it (for extras.lang.rust)
 return {
   "neovim/nvim-lspconfig",
   opts = {
