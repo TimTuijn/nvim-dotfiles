@@ -2,6 +2,8 @@
 
 ## zen mode (https://github.com/folke/zen-mode.nvim)
 
+## tmux => tmux essentials? Also vim/emacs keybindings?
+
 ## Wezterm
 
 ## Checkout yadm
