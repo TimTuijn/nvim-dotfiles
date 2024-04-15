@@ -1,5 +1,9 @@
 # My lengthy Nvim TODO
 
+## zen mode (https://github.com/folke/zen-mode.nvim)
+
+## Wezterm
+
 ## Checkout yadm
 
 [yadm](https://yadm.io/docs/overview) is a dotfile manager that can make setup fast for each new environment we're in.
