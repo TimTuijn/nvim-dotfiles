@@ -2,6 +2,9 @@
 return {
   "neovim/nvim-lspconfig",
   opts = {
+    codelens = {
+      enabled = true,
+    },
     servers = {
       -- Taplo is a .TOML LSP server (only for Rust)
       taplo = {
