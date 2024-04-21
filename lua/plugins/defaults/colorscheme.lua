@@ -1,6 +1,12 @@
 return {
   {
-    "Th3Whit3Wolf/one-nvim",
+    "eldritch-theme/eldritch.nvim",
+  },
+  {
+    "Mofiqul/vscode.nvim",
+  },
+  {
+    "EdenEast/nightfox.nvim",
   },
   {
     "scottmckendry/cyberdream.nvim",
