@@ -33,3 +33,5 @@ For now we just use the following to have links work:
 ```lua
 vim.g.netrw_browsex_viewer = "cmd.exe /C start"
 ```
+## WSL cursor not resetting correctly
+:au VimLeave * set guicursor= | call chansend(v:stderr, "\x1b[ q")

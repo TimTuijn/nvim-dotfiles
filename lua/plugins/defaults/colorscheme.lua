@@ -28,6 +28,14 @@ return {
   },
   {
     "catppuccin/nvim",
+    name = "catppuccin",
+    opts = {
+      color_overrides = {
+        latte = {
+          base = "#ffffff",
+        },
+      },
+    },
   },
   {
     "LazyVim/LazyVim",
