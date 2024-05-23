@@ -6,7 +6,7 @@ return {
   opts = {
     sources = { "filesystem", "buffers", "git_status", "document_symbols" },
     source_selector = {
-      winbar = false, -- toggle to show selector on winbar
+      winbar = true, -- toggle to show selector on winbar
       sources = {
         { source = "filesystem" },
         { source = "git_status" },
@@ -19,9 +19,6 @@ return {
       follow_current_file = { enabled = true },
       use_libuv_file_watcher = true,
       -- hijack_netrw_behavior = "open_current",
-      window = {
-        position = "current",
-      },
     },
     window = {
       mappings = {
@@ -53,9 +50,27 @@ return {
     },
 
     -- Edit following keybindings because we want to use mini.files
-    { "<leader>e", vim.NIL },
-    { "<leader>E", vim.NIL },
-    { "<leader>fe", desc = "Explorer NeoTree (Root Dir)", remap = true },
-    { "<leader>fE", desc = "Explorer NeoTree (cwd)", remap = true },
+    {
+      "<leader>e",
+      false,
+    },
+    {
+      "<leader>E",
+      false,
+    },
+    {
+      "<leader>fe",
+      function()
+        require("neo-tree.command").execute({ toggle = true, dir = LazyVim.root() })
+      end,
+      desc = "Explorer NeoTree (Root Dir)",
+    },
+    {
+      "<leader>fE",
+      function()
+        require("neo-tree.command").execute({ toggle = true, dir = vim.uv.cwd() })
+      end,
+      desc = "Explorer NeoTree (cwd)",
+    },
   },
 }

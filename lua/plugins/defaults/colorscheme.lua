@@ -33,7 +33,11 @@ return {
       color_overrides = {
         latte = {
           base = "#ffffff",
+          mantle = require("catppuccin.palettes").get_palette("latte").base,
         },
+      },
+      integrations = {
+        harpoon = true, -- This one is not yet working, hopefully so in the future when harpoon2 is merged in master
       },
     },
   },
