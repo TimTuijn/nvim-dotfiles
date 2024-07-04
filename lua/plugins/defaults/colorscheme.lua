@@ -29,11 +29,13 @@ return {
   {
     "catppuccin/nvim",
     name = "catppuccin",
+    ---@type CatppuccinOptions
     opts = {
       color_overrides = {
         latte = {
           base = "#ffffff",
           mantle = require("catppuccin.palettes").get_palette("latte").base,
+          -- mantle = "#ffffff",
         },
       },
       highlight_overrides = {
@@ -42,6 +44,11 @@ return {
             LspReferenceText = { bg = latte.surface0 },
             LspReferenceRead = { bg = latte.surface0 },
             LspReferenceWrite = { bg = latte.surface0 },
+            -- The following is an override of FloatBorder background from latte.mantle to latte.base
+            FloatBorder = {
+              fg = latte.blue,
+              bg = (O.transparent_background and vim.o.winblend == 0) and latte.none or latte.base,
+            },
           }
         end,
       },
