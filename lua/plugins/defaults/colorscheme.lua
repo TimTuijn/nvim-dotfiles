@@ -26,6 +26,7 @@ return {
   {
     "navarasu/onedark.nvim",
   },
+  { "folke/tokyonight.nvim", lazy = false },
   {
     "catppuccin/nvim",
     name = "catppuccin",
@@ -47,7 +48,7 @@ return {
             -- The following is an override of FloatBorder background from latte.mantle to latte.base
             FloatBorder = {
               fg = latte.blue,
-              bg = (O.transparent_background and vim.o.winblend == 0) and latte.none or latte.base,
+              bg = latte.base,
             },
           }
         end,
