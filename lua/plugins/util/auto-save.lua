@@ -1,5 +1,6 @@
 return {
   "okuuva/auto-save.nvim",
+  enabled = false,
   lazy = false,
   opts = {
     enabled = false,
